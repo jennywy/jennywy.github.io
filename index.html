@@ -2,8 +2,9 @@
 <html>
     <head>
       <title>Jenny's Portfolio</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -12,14 +13,66 @@
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <div class="container-fluid">
-<section><h1>About</h1>Etc etc etc...</section>
-<section><h1>Skills</h1>Etc etc etc...</section>
-<section><h1>Contact</h1>Etc etc etc...</section>
-<section><h1>Resume</h1>Etc etc etc...</section>
-</div>
-<footer class="container-fluid">
-        <p>Footer Text</p>
-</footer>
+      <!-- Navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jenny Wen Yee</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SKILLS</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">RESUME</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- First Container -->
+      <div class="container-fluid bg-1 text-center">
+        <h3 class="margin">Jenny Wen Yee</h3>
+        <img src="https://i.imgur.com/hEUHB8b.jpg" class="img-responsive img-circle margin" style="display:inline" alt="photoofjenny" width="350" height="350">
+      </div>
+
+      <!-- Second Container -->
+      <div class="container-fluid bg-2 text-center">
+        <h3 class="margin">About</h3>
+        <p>  I have a background in life sciences, and experience in diverse client-facing roles. I realized I loved being part of a production environment and collaborating with others to solve new problems every day, and so I made the big leap into tech! I'm an adventurous and generous individual seeking new opportunities to apply my skills in web development. </p>
+      </div>
+
+      <!-- Third Container (Grid) -->
+      <div class="container-fluid bg-3 text-center">
+        <h3 class="margin">My Projects</h3><br>
+        <div class="row">
+          <div class="col-sm-3">
+            <p>Tic Tac Toe</p>
+            <img src="https://i.imgur.com/bRfJPZh.png" class="img-responsive margin" style="width:100%" alt="Tic Tac Toe">
+          </div>
+          <div class="col-sm-3">
+            <p>Gabby - A programming language tracker</p>
+            <img src="https://i.imgur.com/ykiyekQ.png" class="img-responsive margin" style="width:100%" alt="Gabby">
+          </div>
+          <div class="col-sm-3">
+            <p>A group project</p>
+            <img src="https://i.imgur.com/4H8KIPx.jpg" class="img-responsive margin" style="width:100%" alt="Group Project">
+          </div>
+          <div class="col-sm-3">
+            <p>A Capstone Project</p>
+            <img src="https://i.imgur.com/4W6XiQC.jpg" class="img-responsive margin" style="width:100%" alt="Capstone Project">
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="container-fluid bg-4 text-center">
+        <p>A footer here</p>
+      </footer>
     </body>
 </html>

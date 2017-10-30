@@ -9,6 +9,15 @@ p {
   font-size: 16px;
 }
 
+#Ember {
+  width: 100px;
+  height: 100px;
+}
+
+#Handlebars {
+  width: 100px;
+  height: 100px;
+}
 .skill {
   font-size: 75px;
   text-align: center;

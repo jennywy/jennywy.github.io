@@ -5,7 +5,7 @@ body {
 }
 
 article {
-  padding: 70px;
+  padding: 30px;
 }
 
 p {
@@ -16,7 +16,6 @@ span {
   text-decoration: underline;
   text-transform: uppercase;
 }
-
 
 #Ember {
   width: 100px;
@@ -54,7 +53,10 @@ span {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
+    position: fixed;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -65,4 +67,8 @@ span {
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
+}
+
+.prj-img:hover{
+  opacity: 0.4;
 }
